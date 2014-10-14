@@ -173,26 +173,23 @@ header h2, .footer-col h3 {
 	font-size: 35px;
 }
 .col-1 {
-	background: url('../img/seaside-d.jpg');
-	-webkit-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
-}
-.col-2 {
-	background: url('../img/roma-d.jpg');
-	-webkit-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
-}
-.col-1:hover {
 	background: url('../img/seaside.jpg');
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
 }
-.col-2:hover {
+.col-1-wrap {
+	background: rgba(0,0,0, .5);
+}
+.col-2 {
 	background: url('../img/roma.jpg');
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
+}
+.col-2-wrap {
+	background: rgba(0,0,0, .5);
+}
+.col-1:hover .col-1-wrap, .col-2:hover .col-2-wrap {
+	background: rgba(0,0,0, .2);
 }
