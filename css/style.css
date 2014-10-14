@@ -1,0 +1,198 @@
+body {
+	font:400 22px/1.8 "Gentium Book Basic", "Open Sans", Arial;
+}
+.author, .btt-button a, .share-button, .footer-col h4 {
+	font-family: "Open Sans", Arial, sans-serif;
+}
+a, div {
+	-webkit-transition: color .2s ease-in, background-color .3s ease-in, border .3s ease-in, background .6s ease-in;
+	   -moz-transition: color .2s ease-in, background-color .3s ease-in, border .3s ease-in, background .6s ease-in;
+	    -ms-transition: color .2s ease-in, background-color .3s ease-in, border .3s ease-in, background .6s ease-in;
+	     -o-transition: color .2s ease-in, background-color .3s ease-in, border .3s ease-in, background .6s ease-in;
+	        transition: color .2s ease-in, background-color .3s ease-in, border .3s ease-in, background .6s ease-in;
+	    
+}
+header {
+	background:url('../img/header_bg.jpg');
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	min-height: 720px;
+}
+header h1, .footer-col h2 {
+	padding-top:485px;
+	font-size: 60px;
+	color:#fff;
+	line-height: 1.2;
+}
+header h2, .footer-col h3 {
+	font-size: 30px;
+	font-style: italic;
+	color:#d7d7d7;
+	line-height: 1;
+	padding-bottom:18px;
+	border-bottom:1px solid #d7d7d7;
+}
+.container {
+	width:700px;
+	margin:auto;
+}
+.by-author {
+	font-size:12px;
+	font-weight:bold;
+	color:#d7d7d7;
+	text-transform: uppercase;
+	line-height: 0.8;
+}
+.author-name {
+	font-size:15px;
+	font-weight:bold;
+	color:#fff;
+}
+.author-secondname {
+	text-transform: uppercase;
+}
+.author {
+	margin-top:25px;
+	width: 48%;
+	float: left;
+}
+.author img {
+	display:inline-block;
+	float: right;
+	margin: -1px 90px 0 0px;
+}
+.buttons {
+	float:right;
+	font-size: 14px;
+	color:#fff;
+	line-height: 94px;
+}
+.buttons a {
+	color:#fff;
+	padding-right: 15px;
+}
+.buttons a:hover {
+	color: #d7d7d7;
+}
+.content {
+	padding:40px 0;
+}
+.content p {
+	padding: 0 0 50px 0;
+	color: #191919;
+	line-height: 40px;
+}
+.content blockquote {
+	padding: 0 0 50px 0;
+	text-align: center;
+	font-size: 30px;
+	color: #626262;
+}
+.content blockquote:before {
+	font-family:"Times new Roman";
+    content: "\201C";
+}
+.content blockquote:after {
+	font-family:"Times new Roman";
+    content: "\201C";
+}
+.content ul li {
+	color:#565656;
+	list-style: disc inside;
+	padding:0 0 40px 30px;
+}
+.content ul li span {
+	color: #191919;
+}
+.btt-button {
+	text-align:center;
+}
+.btt-button a {
+	color:#a8a8a8;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1;
+}
+.btt-button a:hover {
+	color: #191919;
+}
+.btt-button a .fa {
+	display: block;
+	line-height: 0.1;
+	font-size: 20px;
+}
+.pre-footer {
+	background:url('../img/prefooter_bg.jpg');
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	padding:95px 0;
+}
+.share-button {
+	text-align:center;
+	max-width: 250px;
+	margin: auto;
+}
+.share-button a {
+	border:2px solid #2ecc71;
+	border-radius: 20px 0;
+	display: block;
+	font-size: 12px;
+	color:#2ecc71;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding: 20px;
+	font-weight: bold;
+}
+.share-button a:hover {
+	color:#fff;
+	background: #2ecc71;
+}
+.footer-col {
+	float: left;
+	width: 50%;
+	cursor: pointer;
+}
+.footer-col h4 {
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#fff;
+	padding: 70px 0 50px 70px;
+}
+.footer-col h2 {
+	padding:0 0 0 70px;
+	border:none;
+}
+.footer-col h3 {
+	padding:0 0 155px 70px;
+	font-size: 35px;
+}
+.col-1 {
+	background: url('../img/seaside-d.jpg');
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+.col-2 {
+	background: url('../img/roma-d.jpg');
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+.col-1:hover {
+	background: url('../img/seaside.jpg');
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+.col-2:hover {
+	background: url('../img/roma.jpg');
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
