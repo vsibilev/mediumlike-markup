@@ -95,7 +95,7 @@ header h2, .footer-col h3 {
 }
 .content blockquote:after {
 	font-family:"Times new Roman";
-    content: "\201C";
+    content: "\201D";
 }
 .content ul li {
 	color:#565656;
@@ -139,7 +139,7 @@ header h2, .footer-col h3 {
 }
 .share-button a {
 	border:2px solid #2ecc71;
-	border-radius: 20px 0;
+	border-radius: 35px;
 	display: block;
 	font-size: 12px;
 	color:#2ecc71;
